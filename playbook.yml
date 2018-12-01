@@ -1,0 +1,5 @@
+- hosts: localhost
+  user: root
+  tasks:
+    - name: output message
+      debug: msg="Hello Travis CI"
